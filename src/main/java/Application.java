@@ -14,7 +14,7 @@ public class Application {
 
     private static final String BASE_URL = "https://api.weather.yandex.ru/v2/forecast";
 
-    private static double LATITUDE ;
+    private static double LATITUDE;
     private static double LONGITUDE;
     private static int LIMIT;
     private static String KEY;
