@@ -68,8 +68,8 @@ public class Application {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             return objectMapper.readTree(jsonResponse);
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
+        } catch (JsonProcessingException ex) {
+            throw new RuntimeException(ex);
         }
     }
 
